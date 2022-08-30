@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T09:34:47.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="B9SiAOfFX67-4JmqwX3T" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T10:13:57.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="r_OrMG23fFjjVF7jksPR" version="14.9.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -86,6 +86,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="257" y="480" as="sourcePoint" />
             <mxPoint x="557" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8mDLES_CjJxAC2C2w6Z-1" value="http调用admin上传流量信息" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="319.4999999999998" as="targetPoint" />
+            <mxPoint x="380" y="319.4999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
