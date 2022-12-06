@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T09:24:08.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Xbd4hpSsdA_2SLeJGNkk" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T09:31:36.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="LlVztN2gJwJ8eLKTrhRx" version="20.6.0" type="github">
   <diagram id="gGXGk-ehEbuJboOs8Xbj" name="第 1 页">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,14 +80,14 @@
         </mxCell>
         <mxCell id="LxBSH3rdeD30dWvgSmXf-15" value="发送启动拦截命令" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="335" y="225.0000000000001" as="sourcePoint" />
-            <mxPoint x="505" y="225.0000000000001" as="targetPoint" />
+            <mxPoint x="335" y="210.0000000000001" as="sourcePoint" />
+            <mxPoint x="505" y="210.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LxBSH3rdeD30dWvgSmXf-16" value="返回成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="328" y="249.99999999999977" as="targetPoint" />
-            <mxPoint x="498" y="249.99999999999977" as="sourcePoint" />
+            <mxPoint x="328" y="234.99999999999977" as="targetPoint" />
+            <mxPoint x="498" y="234.99999999999977" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LxBSH3rdeD30dWvgSmXf-17" value="发送下载命令" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" edge="1">
@@ -125,6 +125,13 @@
         </mxCell>
         <mxCell id="_bBLkxt7XojFWHMVNguw-3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="_bBLkxt7XojFWHMVNguw-2">
           <mxGeometry x="45" y="80" width="10" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="_bBLkxt7XojFWHMVNguw-6" value="发送请求" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="_bBLkxt7XojFWHMVNguw-2" target="LxBSH3rdeD30dWvgSmXf-7">
+          <mxGeometry x="-0.1373" y="10" relative="1" as="geometry">
+            <mxPoint x="55" y="170.0000000000001" as="sourcePoint" />
+            <mxPoint x="225" y="170.0000000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_bBLkxt7XojFWHMVNguw-4" value="根据 traceId&#xa;获取被被拦截的组件数据" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry x="0.046" y="-10" relative="1" as="geometry">
