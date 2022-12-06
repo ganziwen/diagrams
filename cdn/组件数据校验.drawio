@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T09:31:36.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="LlVztN2gJwJ8eLKTrhRx" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T09:34:06.317Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="t5pKvCC3L-yRTxLiRsPt" version="20.6.0" type="github">
   <diagram id="gGXGk-ehEbuJboOs8Xbj" name="第 1 页">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -126,8 +126,8 @@
         <mxCell id="_bBLkxt7XojFWHMVNguw-3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="_bBLkxt7XojFWHMVNguw-2">
           <mxGeometry x="45" y="80" width="10" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="_bBLkxt7XojFWHMVNguw-6" value="发送请求" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="_bBLkxt7XojFWHMVNguw-2" target="LxBSH3rdeD30dWvgSmXf-7">
-          <mxGeometry x="-0.1373" y="10" relative="1" as="geometry">
+        <mxCell id="_bBLkxt7XojFWHMVNguw-6" value="发送请求，自定义 header 为 traceId" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="_bBLkxt7XojFWHMVNguw-2" target="LxBSH3rdeD30dWvgSmXf-7">
+          <mxGeometry x="-0.0327" y="-20" relative="1" as="geometry">
             <mxPoint x="55" y="170.0000000000001" as="sourcePoint" />
             <mxPoint x="225" y="170.0000000000001" as="targetPoint" />
             <mxPoint as="offset" />
@@ -137,13 +137,6 @@
           <mxGeometry x="0.046" y="-10" relative="1" as="geometry">
             <mxPoint x="116" y="424.9999999999998" as="targetPoint" />
             <mxPoint x="323.5" y="424.9999999999998" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_bBLkxt7XojFWHMVNguw-5" value="拿到 treceId" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
-          <mxGeometry x="0.0361" y="-10" relative="1" as="geometry">
-            <mxPoint x="115" y="320.4999999999998" as="targetPoint" />
-            <mxPoint x="322.5" y="320.4999999999998" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
