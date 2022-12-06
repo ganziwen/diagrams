@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T09:13:37.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="3XK69vRSokrGVyco5r4g" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T09:15:37.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="MxhrLuSBIPxO6zSMiom2" version="20.6.0" type="github">
   <diagram id="gGXGk-ehEbuJboOs8Xbj" name="第 1 页">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,14 +11,15 @@
           <mxGeometry x="45" y="70" width="10" height="410" as="geometry" />
         </mxCell>
         <mxCell id="LxBSH3rdeD30dWvgSmXf-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="LxBSH3rdeD30dWvgSmXf-1" vertex="1">
-          <mxGeometry x="50" y="396" width="10" height="40" as="geometry" />
+          <mxGeometry x="50" y="429" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LxBSH3rdeD30dWvgSmXf-4" value="解析文件" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="LxBSH3rdeD30dWvgSmXf-1" target="LxBSH3rdeD30dWvgSmXf-3" edge="1">
+        <mxCell id="LxBSH3rdeD30dWvgSmXf-4" value="解析文件" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="LxBSH3rdeD30dWvgSmXf-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="376" as="sourcePoint" />
+            <mxPoint x="55" y="410" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="376" />
+              <mxPoint x="85" y="410" />
             </Array>
+            <mxPoint x="60" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LxBSH3rdeD30dWvgSmXf-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="LxBSH3rdeD30dWvgSmXf-1" vertex="1">
@@ -39,7 +40,7 @@
           <mxGeometry x="45" y="80" width="10" height="400" as="geometry" />
         </mxCell>
         <mxCell id="LxBSH3rdeD30dWvgSmXf-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="LxBSH3rdeD30dWvgSmXf-7" vertex="1">
-          <mxGeometry x="50" y="230" width="10" height="90" as="geometry" />
+          <mxGeometry x="50" y="230" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LxBSH3rdeD30dWvgSmXf-10" value="开始拦截流量&lt;br&gt;并存储到本地文件" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="LxBSH3rdeD30dWvgSmXf-7" target="LxBSH3rdeD30dWvgSmXf-9" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -50,6 +51,13 @@
               <mxPoint x="85" y="220" />
               <mxPoint x="60" y="220" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bBLkxt7XojFWHMVNguw-1" value="接口暴露" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="LxBSH3rdeD30dWvgSmXf-7">
+          <mxGeometry x="0.046" y="-10" relative="1" as="geometry">
+            <mxPoint x="-129" y="345.9999999999998" as="targetPoint" />
+            <mxPoint x="229.5" y="345.9999999999998" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LxBSH3rdeD30dWvgSmXf-11" value="发送注入命令，但不启动容器" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" edge="1">
@@ -84,20 +92,20 @@
         </mxCell>
         <mxCell id="LxBSH3rdeD30dWvgSmXf-17" value="发送下载命令" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="333" y="426" as="sourcePoint" />
-            <mxPoint x="503" y="426" as="targetPoint" />
+            <mxPoint x="333" y="460" as="sourcePoint" />
+            <mxPoint x="503" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LxBSH3rdeD30dWvgSmXf-18" value="下载文件" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="328" y="455.9999999999998" as="targetPoint" />
-            <mxPoint x="498" y="455.9999999999998" as="sourcePoint" />
+            <mxPoint x="328" y="489.9999999999998" as="targetPoint" />
+            <mxPoint x="498" y="489.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LxBSH3rdeD30dWvgSmXf-19" value="存储" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="LxBSH3rdeD30dWvgSmXf-3" edge="1">
+        <mxCell id="LxBSH3rdeD30dWvgSmXf-19" value="存储" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="378" y="506" as="sourcePoint" />
-            <mxPoint x="678" y="506" as="targetPoint" />
+            <mxPoint x="338" y="540" as="sourcePoint" />
+            <mxPoint x="678" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LxBSH3rdeD30dWvgSmXf-20" value="http上传流量信息" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" parent="1" edge="1">
