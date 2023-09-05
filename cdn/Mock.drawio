@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T11:29:52.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="CQPsOv-ERdI-KER0qTtD" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T11:32:13.131Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="V3_Psm0_-yqpP18epfAC" version="21.6.9" type="github">
   <diagram name="第 1 页" id="1ah4ggXwa2gzJ-edYqb1">
     <mxGraphModel dx="1562" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,18 +19,32 @@
         <mxCell id="IUW2LOTJQMZ6sZd0ZRnb-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="IUW2LOTJQMZ6sZd0ZRnb-30">
           <mxGeometry x="45" y="90" width="10" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="IUW2LOTJQMZ6sZd0ZRnb-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="IUW2LOTJQMZ6sZd0ZRnb-30">
+          <mxGeometry x="45" y="320" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IUW2LOTJQMZ6sZd0ZRnb-45" value="客户端调用" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="IUW2LOTJQMZ6sZd0ZRnb-44" parent="IUW2LOTJQMZ6sZd0ZRnb-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUW2LOTJQMZ6sZd0ZRnb-46" value="Mock 返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="IUW2LOTJQMZ6sZd0ZRnb-44" parent="IUW2LOTJQMZ6sZd0ZRnb-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IUW2LOTJQMZ6sZd0ZRnb-32" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="80" width="100" height="480" as="geometry" />
+          <mxGeometry x="600" y="90" width="100" height="480" as="geometry" />
         </mxCell>
         <mxCell id="IUW2LOTJQMZ6sZd0ZRnb-33" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="IUW2LOTJQMZ6sZd0ZRnb-32">
           <mxGeometry x="45" y="80" width="10" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="IUW2LOTJQMZ6sZd0ZRnb-36" value="下发Mock配置" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.86;exitY=0.023;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="IUW2LOTJQMZ6sZd0ZRnb-35" parent="1" source="IUW2LOTJQMZ6sZd0ZRnb-28">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="IUW2LOTJQMZ6sZd0ZRnb-36" value="下发 Mock 配置" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.86;exitY=0.023;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="IUW2LOTJQMZ6sZd0ZRnb-35" parent="1" source="IUW2LOTJQMZ6sZd0ZRnb-28">
+          <mxGeometry x="-0.0007" relative="1" as="geometry">
             <mxPoint x="130" y="170" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUW2LOTJQMZ6sZd0ZRnb-37" value="Mock配置生效" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="IUW2LOTJQMZ6sZd0ZRnb-37" value="Mock 配置生效" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="129" y="210" as="targetPoint" />
             <mxPoint x="414" y="210" as="sourcePoint" />
